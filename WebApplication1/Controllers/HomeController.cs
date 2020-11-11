@@ -10,9 +10,9 @@ namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public ViewResult Index()
         {
-            return View();
+            return View("minhaview");
         }
 
         public IActionResult About()
